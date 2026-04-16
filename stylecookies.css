@@ -1,0 +1,50 @@
+body{
+	font-size:22px; 
+	background-color:#EDE6D5; 
+	font-family:Comic Sans MS;
+}
+
+p{
+	margin-left:10%; 
+	margin-right:10%
+}
+
+h2{
+	margin-left:10%; 
+	margin-right:10%
+}
+
+.logo{
+	position: fixed;
+		left: 30px;
+		top: 20px;
+	z-index: 3;
+}
+
+.menu{
+  text-align: right;
+  position: sticky;
+	  top: 0;
+	  right: 0;
+	z-index: 2;
+	color: black;
+	background-color: #EDE6D5;
+}
+
+.menu a:link {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: lightblue;
+  color: blue;
+  font-size: 1.2em;
+ }
+
+.menu a:visited{
+	color:black;
+}
